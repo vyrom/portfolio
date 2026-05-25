@@ -4,28 +4,24 @@ import './Experience.css';
 
 const experiences = [
   { 
-    title: 'ERP Systems', 
-    description: 'Developed comprehensive Enterprise Resource Planning modules to streamline complex business processes and operations.' 
+    title: 'Backend Developer @ ABA Bank', 
+    description: '2024 - Present | Developing and maintaining robust backend services, APIs, and handling core system integrations.' 
   },
   { 
-    title: 'School Management', 
-    description: 'Built management systems for educational institutions to handle student data, administration, and scheduling.' 
+    title: 'Backend Developer @ Infinity Information', 
+    description: '2022 - 2024 | Integration of user-facing elements, building reusable code, application optimization, implementation of security and data storage solutions.' 
   },
   { 
-    title: 'Print Shop Management', 
-    description: 'Created workflow and order management solutions customized specifically for print shop operations and tracking.' 
+    title: 'Web Developer @ CloudNet Cambodia', 
+    description: '2018 - 2022 | Full stack web development (WordPress, custom API). Developed APIs for Google Maps, mobile apps, and payment services. Customized ERP systems.' 
   },
   { 
-    title: 'Bus Ticket Booking', 
-    description: 'Implemented a booking management system for bus ticketing, including seat allocation, route management, and scheduling.' 
+    title: 'IT Support & Web Design @ IT Global', 
+    description: '2017 - 2018 | Designed responsive landing pages, integrated CMS programs, and conducted website testing.' 
   },
   { 
-    title: 'Admin APIs', 
-    description: 'Designed and maintained secure, high-performance Admin APIs for centralized control and data management.' 
-  },
-  { 
-    title: 'HR Systems', 
-    description: 'Developed Human Resources management systems for employee tracking, payroll automation, and attendance.' 
+    title: 'Graphic Designer @ Narita Vespa', 
+    description: '2015 - 2016 | Conceptualized visuals, developed illustrations, logos, and designs using software and hand-drawn techniques.' 
   }
 ];
 

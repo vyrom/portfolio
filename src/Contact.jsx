@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTelegram, FaFacebook } from 'react-icons/fa';
+import { FaTelegram, FaFacebook, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import './Contact.css';
 
@@ -19,12 +19,20 @@ const Contact = () => {
         </p>
         <div className="contact-info">
           <div className="contact-item">
-            <span className="contact-label"><FaTelegram className="contact-icon" /> Telegram:</span>
-            <a href="tel:0968245680" className="contact-link">0968245680</a>
+            <span className="contact-label"><FaPhone className="contact-icon" /> Phone:</span>
+            <a href="tel:+855967425680" className="contact-link">+855 96 742 5680</a>
           </div>
           <div className="contact-item">
-            <span className="contact-label"><FaFacebook className="contact-icon" /> Facebook:</span>
-            <a href="https://facebook.com/BunrongVyrom" target="_blank" rel="noopener noreferrer" className="contact-link">Bunrong Vyrom</a>
+            <span className="contact-label"><FaEnvelope className="contact-icon" /> Email:</span>
+            <a href="mailto:vyrom99997@gmail.com" className="contact-link">vyrom99997@gmail.com</a>
+          </div>
+          <div className="contact-item">
+            <span className="contact-label"><FaMapMarkerAlt className="contact-icon" /> Location:</span>
+            <span className="contact-link">St 271, Tek Tlar, Sen Sok, Phnom Penh</span>
+          </div>
+          <div className="contact-item">
+            <span className="contact-label"><FaTelegram className="contact-icon" /> Telegram:</span>
+            <a href="https://t.me/BunrongVyrom" target="_blank" rel="noopener noreferrer" className="contact-link">@BunrongVyrom</a>
           </div>
         </div>
       </motion.div>

@@ -1,23 +1,19 @@
 import React from 'react';
-import { FaPhp, FaLaravel, FaWordpress, FaDatabase, FaCogs, FaPalette, FaMicrosoft } from 'react-icons/fa';
-import { SiNestjs, SiExpress, SiMysql, SiPostgresql } from 'react-icons/si';
+import { FaLaravel, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
+import { SiExpress, SiFlutter } from 'react-icons/si';
 import { DiPhotoshop } from 'react-icons/di';
 import { motion } from 'framer-motion';
 import './Skills.css';
 
 const skillsData = [
-  { name: 'PHP', icon: <FaPhp /> },
   { name: 'Laravel', icon: <FaLaravel /> },
-  { name: 'WordPress', icon: <FaWordpress /> },
-  { name: 'Odoo', icon: <FaCogs /> },
-  { name: 'NestJS', icon: <SiNestjs /> },
-  { name: 'Express', icon: <SiExpress /> },
-  { name: 'SQL', icon: <FaDatabase /> },
-  { name: 'MySQL', icon: <SiMysql /> },
-  { name: 'PostgreSQL', icon: <SiPostgresql /> },
-  { name: 'Adobe HD', icon: <FaPalette /> },
-  { name: 'Photoshop', icon: <DiPhotoshop /> },
-  { name: 'MS Office', icon: <FaMicrosoft /> }
+  { name: 'Express Js', icon: <SiExpress /> },
+  { name: 'React Js', icon: <FaReact /> },
+  { name: 'HTML5', icon: <FaHtml5 /> },
+  { name: 'CSS3', icon: <FaCss3Alt /> },
+  { name: 'JavaScript', icon: <FaJs /> },
+  { name: 'Flutter', icon: <SiFlutter /> },
+  { name: 'Photoshop', icon: <DiPhotoshop /> }
 ];
 
 const Skills = () => {
