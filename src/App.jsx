@@ -1,27 +1,24 @@
-import React from 'react';
-import Navbar from './Navbar';
-import Hero from '../Hero';
-import Projects from './Projects';
-import Skills from './Skills';
-import Experience from './Experience';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import HRMSModules from './components/HRMSModules';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Events from './components/Events';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[var(--color-secondary)] text-[var(--color-text-main)] font-sans">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-sky-500 selection:text-white relative overflow-x-hidden w-full">
       <Navbar />
-      <main>
-        <div id="home">
-          <Hero />
-        </div>
-        
-        <Skills />
-        
+      <main className="w-full overflow-x-hidden">
+        <Hero />
+        <HRMSModules />
         <Experience />
-        
         <Projects />
-        
+        <Skills />
+        <Events />
         <Contact />
       </main>
       <Footer />
