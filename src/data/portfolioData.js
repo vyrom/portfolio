@@ -8,8 +8,8 @@ export const portfolioData = {
     email: "vyrom99997@gmail.com",
     phone: "+855 96 742 5680",
     phoneDisplay: "+855 96 742 5680",
-    telegram: "@BunrongVyrom",
-    telegramUrl: "https://t.me/BunrongVyrom",
+    telegram: "@Bunrong_Vyrom",
+    telegramUrl: "https://t.me/Bunrong_Vyrom",
     githubUrl: "https://github.com/vyrom",
     linkedinUrl: "https://www.linkedin.com/in/bunrong-vyrom",
     resumeUrl: "#contact", // or link to downloadable CV

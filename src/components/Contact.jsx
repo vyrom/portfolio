@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     const telegramMsg = `Hi Bunrong, my name is ${formState.name} (${formState.email}). Regarding: ${formState.subject} - ${formState.message}`;
     const encoded = encodeURIComponent(telegramMsg);
-    window.open(`https://t.me/BunrongVyrom?text=${encoded}`, '_blank');
+    window.open(`https://t.me/Bunrong_Vyrom?text=${encoded}`, '_blank');
     setSubmitted(true);
   };
 
